@@ -42,7 +42,7 @@ while ($row = $result->fetch_assoc()) {
         <img src='" . $comic['img'] . "' alt='" . $comic['title'] . "'/>
         <br /><br />
         To read the comic head to <a target='_blank' href='https://xkcd.com/" . $comic['num'] . "'>Here</a><br />
-        To unsubscribe kindly visit <a href='http://php-mail.unaux.com/PHP-Mailer/unsubscribe.php?email=$mail'>here.</a>
+        To unsubscribe kindly visit <a href='https://php-mailer-xd.herokuapp.com/unsubscribe.php?email=$mail'>here.</a>
         ";
   sendComic($mail, $title, $Body, $attachments);
 }

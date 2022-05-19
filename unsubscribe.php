@@ -13,10 +13,10 @@ if (isset($_GET['email'])) {
     $result = mysqli_query($conn, $query);
     if ($result) {
       $_SESSION['message'] = "Your account successfully Deactivated";
-      header("location: ../PHP-Mailer");
+      header("location: ./");
     } else {
       $_SESSION['message'] = "Your account has not registered";
-      header("location: ../PHP-Mailer");
+      header("location: ./");
     }
   }
 }

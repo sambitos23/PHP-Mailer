@@ -36,13 +36,13 @@ session_start();
         $subject = "Email Verification for PHP-Mailer";
         $body = "
                   Hi, $username,
-                  Click the link below to verify your email. http://php-mail.unaux.com/PHP-Mailer/verify.php?token=$token.
+                  Click the link below to verify your email. https://php-mailer-xd.herokuapp.com/verify.php?token=$token.
                   Thank you.
 
 
 
                   Unsubscribe from our newsletter by clicking the link below.
-                  http://php-mail.unaux.com/PHP-Mailer/unsubscribe.php?email=$email
+                  https://php-mailer-xd.herokuapp.com/unsubscribe.php?email=$email
                 ";
 
         // Always set content-type when sending HTML email
@@ -70,7 +70,7 @@ session_start();
         <h1 class="title-font font-medium text-3xl text-gray-900">Slow-carb next level shoindcgoitch ethical authentic, poko scenester</h1>
         <p class="leading-relaxed mt-4">Poke slow-carb mixtape knausgaard, typewriter street art gentrify hammock starladder roathse. Craies vegan tousled etsy austin.</p>
       </div>
-      <form action="../PHP-Mailer/" method="post" class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+      <form action="./" method="post" class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
         <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up</h2>
         <div class="relative mb-4">
           <label for="username" class="leading-7 text-sm text-gray-600">Full Name</label>
